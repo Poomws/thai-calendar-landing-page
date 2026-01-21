@@ -14,41 +14,29 @@ export function TopNav() {
         <div className="hidden lg:flex gap-8">
           <Link
             href="/"
-            className="text-md font-bold text-white hover:text-[#003996] transition-colors"
+            className="text-md font-bold text-white hover:text-[#B8860B] transition-colors"
           >
             Home
           </Link>
           <Link
             href="/privacy" 
-            className="text-md font-bold text-white hover:text-[#003996] transition-colors"
+            className="text-md font-bold text-white hover:text-[#B8860B] transition-colors"
           >
             Privacy Policy
           </Link>
           <Link
             href="/terms" 
-            className="text-md font-bold text-white hover:text-[#003996] transition-colors"
+            className="text-md font-bold text-white hover:text-[#B8860B] transition-colors"
           >
             Terms & Conditions
           </Link>
-          <Link
-            href="/attributions" 
-            className="text-md font-bold text-white hover:text-[#003996] transition-colors"
-          >
-            Attributions
-          </Link>
-          <a 
-            href="mailto:fifteenfit.s@outlook.com"
-            className="text-md font-bold text-white hover:text-[#003996] transition-colors cursor-pointer"
-          >
-            Contact Us
-          </a>
         </div>
 
         {/* Mobile/Tablet Navigation Button */}
         <div className="lg:hidden flex justify-start w-full">
           <button 
             onClick={() => setIsMenuOpen(true)}
-            className="text-md font-bold text-white hover:text-[#003996] transition-colors cursor-pointer px-4 py-2"
+            className="text-md font-bold text-white hover:text-[#B8860B] transition-colors cursor-pointer px-4 py-2"
           >
             <AlignJustify className="w-6 h-6" />
           </button>
@@ -77,38 +65,24 @@ export function TopNav() {
               <Link
                 href="/"
                 onClick={() => setIsMenuOpen(false)}
-                className="block text-xl font-bold text-white hover:text-[#003996] transition-colors"
+                className="block text-xl font-bold text-white hover:text-[#B8860B] transition-colors"
               >
                 Home
               </Link>
               <Link
                 href="/privacy"
                 onClick={() => setIsMenuOpen(false)}
-                className="block text-xl font-bold text-white hover:text-[#003996] transition-colors"
+                className="block text-xl font-bold text-white hover:text-[#B8860B] transition-colors"
               >
                 Privacy Policy
               </Link>
               <Link
                 href="/terms"
                 onClick={() => setIsMenuOpen(false)}
-                className="block text-xl font-bold text-white hover:text-[#003996] transition-colors"
+                className="block text-xl font-bold text-white hover:text-[#B8860B] transition-colors"
               >
                 Terms & Conditions
               </Link>
-              <Link
-                href="/attributions"
-                onClick={() => setIsMenuOpen(false)}
-                className="block text-xl font-bold text-white hover:text-[#003996] transition-colors"
-              >
-                Attributions
-              </Link>
-              <a 
-                href="mailto:fifteenfit.s@outlook.com"
-                onClick={() => setIsMenuOpen(false)}
-                className="block text-xl font-bold text-white hover:text-[#003996] transition-colors text-left w-full"
-              >
-                Contact Us
-              </a>
             </div>
           </div>
         </div>

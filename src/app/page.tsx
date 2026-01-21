@@ -13,10 +13,10 @@ export default function Home() {
       {/* Main Content */}
       <div className="w-full max-w-6xl flex flex-col lg:flex-row items-center justify-center lg:justify-between gap-6 mt-6 lg:mt-18">
         {/* App Screenshot - Centered on mobile, left on desktop */}
-        <div className="flex-shrink-0 order-2 lg:order-1">
+        <div className="shrink-0 order-2 lg:order-1">
           <Image
             src="/image/main-screen.png"
-            alt="Fifteenfit App Screenshot"
+            alt="Thai Calendar app screenshot"
             width={280}
             height={560}
             className="w-[260px] sm:w-[300px] lg:w-[360px] rounded-2xl"
@@ -31,23 +31,23 @@ export default function Home() {
               {/* <div className="absolute -right-1 -bottom-1 w-[80px] h-[80px] bg-black"></div> */}
               <Image
                 src="/image/app-icon.png"
-                alt="Fifteenfit Icon"
+                alt="Thai Calendar icon"
                 width={80}
                 height={80}
                 className="relative w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 border-2 border-white rounded-lg"
               />
             </div>
             <span className="text-xl sm:text-2xl lg:text-3xl font-bold text-white">
-              Fifteenfit
+              Thai Calendar
             </span>
           </div>
 
           {/* Headlines */}
           <h1 className="text-4xl font-bold sm:text-5xl lg:text-6xl leading-tight text-white mt-8">
-            Transform your body in just 15 minutes a day
+            Thai dates, holidays, and B.E. years—at a glance
           </h1>
           <h2 className="text-xl sm:text-2xl lg:text-3xl leading-tight text-[#0f4fb8]">
-            Ready to unlock your full fitness potential?
+            Built for everyday planning in Thailand.
           </h2>
           <div className="flex flex-col sm:flex-row max-w-lg justify-center mt-2 mb-2 sm:mb-4">
             <a

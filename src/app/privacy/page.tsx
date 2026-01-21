@@ -10,128 +10,111 @@ export default function PrivacyPolicy() {
       <div className="relative w-full max-w-4xl mb-8 mt-6 lg:mt-18">
         <div className="absolute -right-1 -bottom-1 w-full h-full bg-gray-700"></div>
         <div className="relative bg-white backdrop-blur-sm p-4 sm:p-6 lg:p-8">
-          <h1 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-[#003996]">Privacy Policy for Fifteenfit</h1>
-          <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-4">Effective Date: January 14, 2026</p>
-          <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-4">App Name: Fifteenfit</p>
+          <h1 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-[#B8860B]">Privacy Policy for Thai Calendar</h1>
+          <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-4">Effective Date: January 21, 2026</p>
+          <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-4">App Name: Thai Calendar</p>
 
           <section className="mb-6 sm:mb-8">
-            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-[#003996]">1. Overview</h2>
+            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-[#B8860B]">1. Overview</h2>
             <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-4">
-              Fifteenfit (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;), operated by Gobek Labs Co., Ltd., is a fitness app that helps users achieve their health and fitness goals effectively. This Privacy Policy explains how we collect, use, and protect your personal data when you use our mobile application (&quot;App&quot;).
+              Thai Calendar (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;), operated by Gobek Labs Co., Ltd., is a calendar app focused on Thai dates, Buddhist Era (B.E.) years, and holidays. The App does not require an account and does not include in-app purchases. This Privacy Policy explains what data we collect (if any) and how we use and protect it when you use our application (&quot;App&quot;).
             </p>
           </section>
 
           <section className="mb-6 sm:mb-8">
-            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-[#003996]">2. Information We Collect</h2>
+            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-[#B8860B]">2. Information We Collect</h2>
             
-            <p className="text-sm sm:text-base text-black font-semibold mb-2 mt-4">a. Personal Information (Provided by You)</p>
-            <ul className="list-disc list-inside text-sm sm:text-base text-gray-600 space-y-1 sm:space-y-2 ml-4 mb-3">
-              <li>Age</li>
-              <li>Height</li>
-              <li>Weight</li>
-            </ul>
+            <p className="text-sm sm:text-base text-black font-semibold mb-2 mt-4">a. Personal Information</p>
             <p className="text-sm sm:text-base text-gray-600 mb-4">
-              This information is used only to personalize features such as workout recommendations, fitness tracking, and in-app calculations.
-              We do not use this data to identify you personally, and it is not shared with advertisers or sold to third parties.
+              We do not require you to create an account and we do not ask you to provide personal information (such as your name, email address, or phone number) to use the App.
             </p>
 
-            <p className="text-sm sm:text-base text-black font-semibold mb-2 mt-4">b. Usage and Analytics Data (Anonymous)</p>
-            <ul className="list-disc list-inside text-sm sm:text-base text-gray-600 space-y-1 sm:space-y-2 ml-4 mb-3">
-              <li>Product interaction data (e.g., features used, workout sessions, gameplay activity)</li>
-              <li>Session duration and frequency of use</li>
-              <li>App performance metrics and crash reports</li>
-              <li>Device information (device type and operating system version)</li>
-            </ul>
+            <p className="text-sm sm:text-base text-black font-semibold mb-2 mt-4">b. Usage & Diagnostics (Optional)</p>
             <p className="text-sm sm:text-base text-gray-600 mb-4">
-              This data is collected anonymously and is not linked to your identity.
-              We use PostHog, a third-party analytics service, solely to understand app usage patterns, diagnose issues, and improve overall functionality and user experience.
+              If we enable analytics or crash reporting, we may collect basic usage and diagnostics information (such as feature usage, app performance, crash logs, and device/OS version). This information is used to improve reliability and user experience and is not used for advertising.
             </p>
 
             <p className="text-sm sm:text-base text-black font-semibold mb-2 mt-4">c. Data Minimization & Purpose Limitation</p>
             <p className="text-sm sm:text-base text-gray-600">
-              We collect only the information necessary to operate and improve the app. All data is processed strictly for functionality, personalization, and performance improvement purposes.
+              We collect only the information necessary to operate and improve the App. We do not sell your data.
             </p>
           </section>
 
           <section className="mb-6 sm:mb-8">
-            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-[#003996]">3. How We Use Your Information</h2>
+            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-[#B8860B]">3. How We Use Your Information</h2>
             <p className="text-sm sm:text-base text-gray-600 mb-2">We use the information collected to:</p>
             <ul className="list-disc list-inside text-sm sm:text-base text-gray-600 space-y-1 sm:space-y-2 ml-4">
-              <li>Provide and operate core features of the app</li>
-              <li>Authenticate users and secure account access</li>
-              <li>Track your progress and achievements</li>
-              <li>Send push notifications about updates</li>
-              <li>Provide customer support and respond to inquiries</li>
-              <li>Analyze usage patterns to improve user experience</li>
-              <li>Conduct analytics and research to enhance the app</li>
+              <li>Provide and operate core calendar features</li>
+              <li>Maintain and improve App performance and reliability</li>
+              <li>Respond to support requests and inquiries</li>
+              <li>Understand aggregate usage to improve the App (if analytics are enabled)</li>
             </ul>
           </section>
 
           <section className="mb-6 sm:mb-8">
-            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-[#003996]">4. Third-Party Services We Use</h2>
-            <p className="text-sm sm:text-base text-gray-600 mb-2">We may share your data with the following trusted service providers:</p>
+            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-[#B8860B]">4. Third-Party Services We Use</h2>
+            <p className="text-sm sm:text-base text-gray-600 mb-2">We may use trusted service providers to operate the App and website:</p>
             <ul className="list-disc list-inside text-sm sm:text-base text-gray-600 space-y-1 sm:space-y-2 ml-4">
-              <li><strong>PostHog</strong>: Anonymous analytics and product usage insights. Data is not linked to your identity and not used for advertising or cross-app tracking. Privacy policy: <a href="https://posthog.com/privacy" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://posthog.com/privacy</a></li>
-              <li><strong>Firebase (Google)</strong>: Analytics, authentication, and backend services</li>
-              <li><strong>GEMINI</strong>: AI services for personalized fitness recommendations</li>
-              <li><strong>Our backend servers</strong>: To securely manage your data and transactions</li>
+              <li><strong>App Store / Platform Providers</strong>: Distribution and platform-level diagnostics handled by Apple/Google under their policies.</li>
+              <li><strong>Analytics / Crash Reporting (if enabled)</strong>: Used to understand usage and fix issues. If enabled, we will update this policy to name the provider.</li>
             </ul>
-            <p className="text-sm sm:text-base text-gray-600 mt-3 sm:mt-4">We do not sell, rent or trade your personal data to third parties for marketing purposes. We do not use collected data to track you across apps or websites owned by other companies.</p>
+            <p className="text-sm sm:text-base text-gray-600 mt-3 sm:mt-4">
+              We do not sell, rent, or trade your personal data. We do not use collected data to track you across apps or websites owned by other companies for advertising purposes.
+            </p>
           </section>
 
           <section className="mb-6 sm:mb-8">
-            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-[#003996]">5. Data Security</h2>
+            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-[#B8860B]">5. Data Security</h2>
             <p className="text-sm sm:text-base text-gray-600 mb-3 sm:mb-4">
               We implement industry-standard security measures to protect your data.
             </p>
             <ul className="list-disc list-inside text-sm sm:text-base text-gray-600 space-y-1 sm:space-y-2 ml-4">
-              <li>Encryption of data in transit and at rest.</li>            
-              <li>Secure authentication protocols.</li>            
-              <li>Regular security audits and updates.</li>                   
+              <li>Encryption of data in transit (where applicable).</li>            
+              <li>Regular security updates.</li>                   
               <li>Limited access to personal data on a need-to-know basis.</li>            
             </ul>
           </section>
 
           <section className="mb-6 sm:mb-8">
-            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-[#003996]">6. Your Rights and Data Control</h2>
+            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-[#B8860B]">6. Your Rights and Data Control</h2>
             <p className="text-sm sm:text-base text-gray-600">You have the right to:</p>
             <ul className="list-disc list-inside text-sm sm:text-base text-gray-600 space-y-1 sm:space-y-2 ml-4">
               <li>Access and request copies of your personal data.</li>
               <li>Correct or update your information.</li>
-              <li>Delete your account and personal data.</li>
               <li>Opt out of non-essential communications.</li>
               <li>Withdraw consent for data processing (where applicable).</li>
             </ul>
           </section>
 
           <section className="mb-6 sm:mb-8">
-            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-[#003996]">7. Data Retention and Deletion</h2>
-            <p className="text-sm sm:text-base text-gray-600">We retain your data only as long as necessary to provide the app&apos;s features and services. You can delete your account and all associated data at any time through the app&apos;s settings. Once deleted, your data is permanently removed from our systems.</p>
+            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-[#B8860B]">7. Data Retention and Deletion</h2>
+            <p className="text-sm sm:text-base text-gray-600">
+              We retain data only as long as necessary to provide the App and comply with legal obligations. If the App stores preferences locally on your device (such as display settings), you can remove them by uninstalling the App.
+            </p>
           </section>
 
           <section className="mb-6 sm:mb-8">
-            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-[#003996]">8. Children&apos;s Privacy</h2>
-            <p className="text-sm sm:text-base text-gray-600">Fifteenfit is not intended for users under the age of 13. We do not knowingly collect personal data from children. If we become aware that a child under 13 has provided us with personal information, we&apos;ll delete it immediately.</p>
+            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-[#B8860B]">8. Children&apos;s Privacy</h2>
+            <p className="text-sm sm:text-base text-gray-600">
+              Thai Calendar is not directed to children under the age of 13. We do not knowingly collect personal data from children.
+            </p>
           </section>
 
           <section className="mb-6 sm:mb-8">
-            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-[#003996]">9. Health & Physical Activity Disclaimer</h2>
-            <p className="text-sm sm:text-base text-gray-600">Fifteenfit is not a medical device and does not provide medical advice. The information provided in the app is for general informational purposes only and should not be considered as professional medical advice. Always consult with a qualified healthcare provider before starting any new exercise program or making significant changes to your health or fitness routine.</p>
+            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-[#B8860B]">9. Accuracy Disclaimer</h2>
+            <p className="text-sm sm:text-base text-gray-600">
+              The App provides calendar information for convenience. While we aim for accuracy (including B.E./C.E. conversion and holiday information), we do not guarantee that all dates and holiday lists are error-free or always up to date.
+            </p>
           </section>
 
           <section className="mb-6 sm:mb-8">
-            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-[#003996]">10. International Data Transfers</h2>
+            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-[#B8860B]">10. International Data Transfers</h2>
             <p className="text-sm sm:text-base text-gray-600">Your data may be transferred to and processed in countries outside your jurisdiction, including the United States, where our servers are located. These countries may have different data protection laws than your jurisdiction. We implement appropriate safeguards to ensure your data is protected and processed in compliance with applicable laws.</p>
           </section>
 
           <section className="mb-6 sm:mb-8">
-            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-[#003996]">11. Changes to This Policy</h2>
+            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-[#B8860B]">11. Changes to This Policy</h2>
             <p className="text-sm sm:text-base text-gray-600">We may update this Privacy Policy from time to time. We will notify you of any significant changes by posting the new policy in the app and updating the effective date above.</p>
-          </section>
-
-          <section className="mb-6 sm:mb-8">
-            <h2 className="text-xl sm:text-2xl font-bold mb-3 sm:mb-4 text-[#003996]">12. Contact Us</h2>
-            <p className="text-sm sm:text-base text-gray-600">If you have any questions about this Privacy Policy or how your data is handled, please contact us at: <a href="mailto:fifteenfit.s@outlook.com" className="text-blue-600 hover:underline">fifteenfit.s@outlook.com</a></p>
           </section>
         </div>
       </div>

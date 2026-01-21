@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Fifteenfit",
-  description: "Your AI-powered fitness companion.",
+  title: "Thai Calendar",
+  description: "A simple Thai calendar with Buddhist Era (B.E.) dates and holidays.",
   icons: {
     icon: "/image/app-icon.png",
   },
